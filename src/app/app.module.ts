@@ -8,16 +8,20 @@ import {
   MatExpansionModule
 } from "@angular/material";
 
-import { AppComponent } from './app.component';
-import { FormsModule } from "@angular/forms";
+import { AppComponent }   from './app.component';
+import { FormsModule }    from "@angular/forms";
 //create
-import { PostCreateComponent } from './posts/post-create/post-create.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { PostCreateComponent }       from './posts/post-create/post-create.component';
+import { BrowserAnimationsModule }   from '@angular/platform-browser/animations';
+import { HeaderComponent }           from './header/header.component';
+import { PostListComponent }         from'./posts/post-list/post-list.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    PostCreateComponent
+    PostCreateComponent,
+    HeaderComponent,
+    PostListComponent
   ],
   imports: [
     BrowserModule,
