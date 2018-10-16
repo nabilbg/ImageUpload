@@ -1,7 +1,7 @@
 <app-header></app-header>
 <main>
   <!-- lesiten to the event "postCreated" and stored it  on the postStored as object-->
-  <app-post-create (postCreated)="onPostAdded($event)"></app-post-create>
+  <app-post-create ></app-post-create>
   <!-- Posts will shwoing from storedPost-->
-  <app-post-list [posts]="storedPost"></app-post-list>
+  <app-post-list></app-post-list>
 </main>
